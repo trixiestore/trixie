@@ -305,8 +305,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6752163466"
-KEY="6377389734:AAEG-bMem9nlzgZQQpsQD87g9xEYoGnX7HE"
+CHATID="817583335"
+KEY="7064257692:AAHdFzfFHBVC7PcKj-aPbhyCaa6fgO2zquo"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -324,10 +324,10 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
 <code>────────────────────</code>
-<b> BOGEL STORE TUNNEL SCRIPT  </b>
+<b> TRIXIE STORE TUNNEL SCRIPT  </b>
 <code>────────────────────</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"Order","url":"https://t.me/bogelxd_vpn"},{"text":"Grub Tele","url":"https://t.me/bogelxd"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"Order","url":"https://t.me/rdkcho"},{"text":"Grub Tele","url":"https://t.me/rdkcho"}]]}'
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
